@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard1.1</TargetFramework>
+    <Authors>Hardened Elements</Authors>
+    <Company>Hardened Elements</Company>
+    <Description>ASN1 Abstraction</Description>
+    <Copyright>Copyright 2017 Midnight Source Inc.</Copyright>
+    <PackageLicenseUrl>https://www.hardenedelements.com/licenses/MIT-2017.txt</PackageLicenseUrl>
+    <PackageProjectUrl>https://www.github.com/HardenedElements/ASNOne</PackageProjectUrl>
+    <PackageIconUrl>https://www.hardenedelements.com/images/he-icon.png</PackageIconUrl>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/HardenedElements/ASNOne.git</RepositoryUrl>
+    <PackageTags>asn1</PackageTags>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="Portable.BouncyCastle" Version="1.8.1.2" />
+	</ItemGroup>
+</Project>
